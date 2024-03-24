@@ -588,6 +588,12 @@ export default class GameManager {
             "https://thunderstore.io/c/plasma/api/v1/package/", EXCLUSIONS,
             [new StorePlatformMetadata(StorePlatform.STEAM, "1409160")], "Plasma.jpg",
             GameSelectionDisplayMode.VISIBLE, GameInstanceType.GAME, PackageLoader.BEPINEX, []),
+        
+        new Game("Millennia", "Millennia", "Millennia",
+            "Millennia Demo", ["Millennia Demo.exe"], "Millennia Demo_Data",
+            "https://thunderstore.io/c/Millennia/api/v1/package/", EXCLUSIONS,
+            [new StorePlatformMetadata(StorePlatform.STEAM, "1268590")], "Millenia.jpg",
+            GameSelectionDisplayMode.VISIBLE, GameInstanceType.GAME, PackageLoader.BEPINEX, ["millennia"]),
     ];
 
     static get activeGame(): Game {
